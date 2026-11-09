@@ -1,0 +1,13 @@
+{
+    "name": "enterprise-ai-operations-copilot",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Enterprise GenAI Operations Copilot using AWS Bedrock",
+    "scripts": {
+      "dev:web": "npm --prefix apps/web run dev",
+      "dev:api": "npm --prefix apps/api run start:dev",
+      "build:web": "npm --prefix apps/web run build",
+      "build:api": "npm --prefix apps/api run build",
+      "test:api": "npm --prefix apps/api run test"
+    }
+  }
